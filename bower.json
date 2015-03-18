@@ -1,0 +1,32 @@
+{
+  "name": "ITB Authoring Front End",
+  "version": "2.0.0",
+  "authors": [
+    "David Crutchfield <crutchfield@interactivetouchbooks.com>"
+  ],
+  "description": "ITB Authoring Front End",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "Private",
+  "homepage": "http://interactivetouchbooks.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marionette": "~2.4.1",
+    "requirejs": "~2.1.16",
+    "handlebars": "~3.0.0",
+    "bootstrap": "~3.3.2",
+    "fontawesome": "~4.3.0",
+    "modernizr": "~2.8.3",
+    "jquery": "~2.1.3",
+    "require-handlebars-plugin": "~0.11.2",
+    "backbone.radio": "~0.9.0"
+  }
+}
