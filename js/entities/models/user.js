@@ -4,8 +4,6 @@ define([
   'use strict';
   
   return Backbone.Model.extend({
-    url: function() {
-      return '/data/user-data.json';
-    }
+    url: 'data/user-data.json'
   });
 });

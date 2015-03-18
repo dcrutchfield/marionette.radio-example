@@ -12,6 +12,8 @@ define([
   var app = new Marionette.Application(),
       channel = Marionette.Radio.channel('app');
    
+  window.channel = channel;
+      
   app.on('start', function(options) {
     if (Backbone.history) {
       Backbone.history.start();
@@ -27,10 +29,10 @@ define([
   channel.comply('entity:fetch', function(entity) {
     entity.fetch({
       sucess: function(model, response, options) {
-        console.log("success", model, response, options);
+        console.log("success");
       },
       error: function(model, response, options) {
-        console.log("error", model, response, options);
+        console.log("error");
       }      
     });
   });

@@ -6,8 +6,6 @@ define([
   
   return Backbone.Collection.extend({
     model: ListItem,
-    url: function() {
-      return '/data/list-data.json';
-    }
+    url: 'data/list-data.json'
   });
 });
