@@ -1,16 +1,10 @@
 {
-  "name": "ITB Authoring Front End",
-  "version": "2.0.0",
-  "authors": [
-    "David Crutchfield <crutchfield@interactivetouchbooks.com>"
-  ],
-  "description": "ITB Authoring Front End",
+  "name": "Example Front End",
+  "version": "1.0.0",
+  "description": "Example",
   "moduleType": [
     "amd"
   ],
-  "license": "Private",
-  "homepage": "http://interactivetouchbooks.com",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
